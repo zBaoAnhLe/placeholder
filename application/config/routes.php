@@ -41,6 +41,7 @@
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 $route['(:num)x(:num)'] = "welcome/draw/$1/$2";
+$route['(.*)'] = "welcome/generate/$1";
 
 
 /* End of file routes.php */
